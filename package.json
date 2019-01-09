@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "koa": "npx cross-env NODE_ENV=development && npx nodemon server/main.js --config .nodemonrc",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
@@ -22,6 +23,9 @@
     "command-line-args": "^5.0.2",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
+    "koa": "^2.6.2",
+    "koa-bunyan-logger": "^2.1.0",
+    "koa-logger": "^3.2.0",
     "koa-send": "^5.0.0",
     "koa-socket": "^4.4.0",
     "koa-static": "^5.0.0",
